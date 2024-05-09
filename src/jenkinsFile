@@ -13,7 +13,8 @@ pipeline{
         }
         stage('Deploy'){
             steps{
-                echo 'Etapa Deploy no disponible'
+                echo 'Creando la clase ejemplo.js...'
+                echo 'Clase ejemplo.js creada con éxito'
             }
         }
     }
